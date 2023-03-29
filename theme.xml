@@ -1914,6 +1914,7 @@ height: 100%;
     </b:widget-settings>
     <b:includable id='main'>
   <!-- only display title if it's non-empty -->
+	<!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
   </b:if>
